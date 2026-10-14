@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
-# Create dataset
+
 data = {
     "Hours": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     "Score": [35, 40, 45, 50, 55, 60, 65, 70, 78, 85]
